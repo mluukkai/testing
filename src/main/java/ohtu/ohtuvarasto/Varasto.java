@@ -2,7 +2,6 @@ package ohtu.ohtuvarasto;
 
 public class Varasto {
 
-
     private double tilavuus;
     private double saldo;
 
@@ -12,6 +11,7 @@ public class Varasto {
         } else {
             this.tilavuus = 0.0;
         }
+
         saldo = 0;
     }
 
